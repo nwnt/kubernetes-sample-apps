@@ -46,7 +46,7 @@ env:
   DEPLOYMENT_MANIFEST_PATH: |
     ./game-2048-example/kustomize/kustomization.yaml
   DOCKER_FILE: ./game-2048-example/Dockerfile
-  BUILD_CONTEXT_PATH: ./
+  BUILD_CONTEXT_PATH: ./game-2048-example
   NAMESPACE: test
 
 jobs:
