@@ -44,7 +44,7 @@ env:
   CLUSTER_RESOURCE_GROUP: nont-test
   CLUSTER_NAME: devhub-test
   DEPLOYMENT_MANIFEST_PATH: |
-    ./game-2048-example/kustomize/kustomization.yaml
+    ./game-2048-example/kustomize/resources/deployment.yaml
   DOCKER_FILE: ./game-2048-example/Dockerfile
   BUILD_CONTEXT_PATH: ./game-2048-example
   NAMESPACE: test
