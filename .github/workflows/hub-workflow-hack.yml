@@ -47,7 +47,7 @@ env:
     ./game-2048-example/kustomize/resources/deployment.yaml
   DOCKER_FILE: ./game-2048-example/Dockerfile
   BUILD_CONTEXT_PATH: ./game-2048-example
-  NAMESPACE: my-namespace
+  NAMESPACE: new-ns
 
 jobs:
   buildImage:
