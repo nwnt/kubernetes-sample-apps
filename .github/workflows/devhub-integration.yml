@@ -45,7 +45,7 @@ env:
   CLUSTER_NAME: devhub-test-2
   DEPLOYMENT_MANIFEST_PATH: |
     ./game-2048-example/kustomize/resources/deployment.yaml
-  DOCKER_FILE: ./game-2048-example/kustomize/resources/deployment.yaml
+  DOCKER_FILE: ./game-2048-example/Dockerfile
   BUILD_CONTEXT_PATH: ./game-2048-example
   NAMESPACE: new-ns
 
